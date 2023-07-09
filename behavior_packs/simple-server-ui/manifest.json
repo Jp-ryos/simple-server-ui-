@@ -1,0 +1,31 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "simple-server-ui",
+    "description": "My behavior pack description",
+    "uuid": "e57c0101-1ddd-48af-9be6-356bddcec47d",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "693224eb-98af-4093-9297-f7098e0a533f",
+      "version": [0, 0, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.3.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.1.0-beta"
+    }
+
+  ]
+}
